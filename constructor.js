@@ -51,3 +51,14 @@ function persona4(name) {
 }
 const antanas = new persona4("Antanas");
 antanas.intro();
+
+//bandymas para6yti konstruktoriu is atminties 2
+
+function prisistatymas(name) {
+    this.name = name;
+    this.text = function(){
+        console.log("Sveiki, mano vardas yra " + this.name)
+    } 
+}
+const maryte = new prisistatymas("Marytė");
+maryte.text();
