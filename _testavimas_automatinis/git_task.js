@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 3000;
 
 app.use(bodyParser.json());
 
-let shops = [];
+let shops = ["Maxima", "Senukai", "Rimi"];
 let items = [];
 
 // Get all shops
